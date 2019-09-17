@@ -1,0 +1,335 @@
+/*
+
+[Table of Contents]
+
+1. Medium Device
+	1.1 Header	
+	1.2  Home Slider  
+	1.3 Client's	
+	1.4 Services
+	1.5 Services
+	1.6 Project Counter
+	1.7 Footer
+2. Small Device
+	2.1 Home Slider	
+	2.2 Clients Logo
+3. Extra Small Device
+	3.1 Home SLider	
+	3.2 Client's Logo	
+	3.3 Features
+	3.4 Project Counter
+	3.5 Footer
+
+*/
+
+/*
+
+[Table of Contents]
+
+1. Medium Device
+	1.1 Header	
+	1.2  Home Slider  
+	1.3 Client's	
+	1.4 Services
+	1.5 Services
+	1.6 Project Counter
+	1.7 Footer
+2. Small Device
+	2.1 Home Slider	
+	2.2 Clients Logo
+3. Extra Small Device
+	3.1 Home SLider	
+
+*/
+
+/*
+
+[Table of Contents]
+
+1. Medium Device
+	1.1 Header	
+	1.2  Home Slider  
+	1.3 Client's	
+	1.4 Services
+	1.5 Services
+	1.6 Project Counter
+	1.7 Footer
+2. Small Device
+	2.1 Home Slider	
+
+*/
+
+/*
+
+[Table of Contents]
+
+1. Medium Device
+	1.1 Header	
+	1.2  Home Slider  
+	1.3 Client's	
+	1.4 Services
+	1.5 Services
+	1.6 Project Counter
+	1.7 Footer
+
+*/
+
+
+
+
+.slicknav_menu {
+    display: none;
+}
+
+@media screen and (max-width: 40em) {
+    /* #menu is the original menu */
+
+}
+
+/*************** 1. Medium Device ***************/
+@media screen and (max-width: 991px) {
+    /*****---------- 1.1 Header	 ----------*****/
+
+    .header-area {
+        opacity: 1;
+    }
+
+    .main-logo {
+        float: left;
+    }
+
+    .js #main-menu {
+        display: none;
+    }
+
+    .js .slicknav_menu {
+        display: block;
+    }
+
+    .slicknav_menu {
+        background: transparent;
+    }
+
+    .slicknav_nav {
+        width: 100%;
+        background: #fff;
+    }
+
+    .slicknav_btn {
+        background: transparent;
+        color: #000;
+        margin-top: 7px;
+    }
+
+    .slicknav_icon {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .slicknav_icon-bar {
+        margin-bottom: 5px;
+        height: 1px;
+        width: 22px;
+        background: #333;
+    }
+
+    .slicknav_nav li {
+        width: 100%;
+        display: inline-block;
+        text-align: left;
+        border-bottom: 1px solid #f1f1f1;
+        border-bottom: 1px solid #f1f1f1;
+        padding: 0;
+    }
+
+    .slicknav_nav li:last-child {
+        border: none;
+    }
+
+    .slicknav_nav a {
+        padding: 15px 0px !important;
+        border-radius: 0;
+        color: #000;
+    }
+
+    .slicknav_nav a:hover {
+        color: #8ed1b7;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    /*****---------- 1.2  Home Slider   ----------*****/
+    .slider-item {
+        padding: 55px 0px;
+    }
+
+    .slider-item h1 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 45px;
+        margin-top: 100px;
+    }
+
+    #home-sliders .owl-dots {
+        bottom: 0;
+    }
+
+    /*****---------- 1.3 Client's	 ----------*****/
+
+    .client-content {
+        text-align: center;
+    }
+
+    .clients-logo-item {
+        text-align: center;
+    }
+
+    .clients-logo-item a {
+        margin: 0 3%;
+    }
+
+    /*****---------- 1.4 Services ----------*****/
+
+
+
+    .features-content {
+        padding: 0;
+        text-align: center;
+    }
+
+    .features-content p {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+    /*****---------- 1.5 Services ----------*****/
+    .feature-item i {
+        left: 10%;
+    }
+
+    /*****---------- 1.6 Project Counter ----------*****/
+    .careers-content {
+        text-align: center;
+    }
+
+    .careers-content p {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    /*****---------- 1.7 Footer ----------*****/
+
+    .footer-item {
+        margin-bottom: 50px;
+    }
+
+    .contact-form input[type=text] {
+        padding: 5px 10px;
+    }
+
+}
+
+/*************** 2. Small Device ***************/
+
+@media screen and (max-width: 767px) {
+
+    /*****---------- 2.1 Home Slider	 ----------*****/
+    .slider-item h1 {
+        font-size: 35px;
+    }
+
+    .slider-item p {
+        font-size: 80%;
+        width: 80%;
+    }
+
+    /*****---------- 2.2 Clients Logo ----------*****/
+
+
+
+    .clients-logo-item a {
+        margin: 0 1%;
+    }
+
+
+
+}
+
+
+/*************** 3. Extra Small Device ***************/
+
+
+@media screen and (max-width: 500px) {
+    /*****---------- 3.1 Home SLider	 ----------*****/
+
+    .slider-item h1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /*****---------- 3.2 Client's Logo	 ----------*****/
+
+    .clients-logo-item a {
+        display: block;
+        text-align: center;
+    }
+
+    .clients-logo-item img {
+        width: auto;
+        height: 100%;
+    }
+
+    /*****---------- 3.3 Features ----------*****/
+
+
+
+
+    .features-content h1 {
+        font-size: 22px;
+    }
+
+    .features-content p {
+        width: 85%;
+    }
+
+
+    /*****---------- 3.4 Project Counter ----------*****/
+
+
+    .careers-content h1 {
+        font-size: 18px;
+        margin: 0 5px;
+        margin-bottom: 10px;
+    }
+
+    .careers-content p {
+        width: 100%;
+    }
+
+    .careers-content {
+        padding: 0px 10px;
+    }
+
+    .counter-item h4 {
+        font-size: 70%;
+    }
+
+    /*****---------- 3.5 Footer ----------*****/
+
+    #contact-us h1 {
+        font-size: 22px;
+    }
+
+    #contact-us p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {}
