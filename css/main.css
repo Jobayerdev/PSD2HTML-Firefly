@@ -297,7 +297,9 @@ body {
 #services {
     padding: 100px 0px;
 }
-
+#services .row {
+    margin: 0;
+}
 .feature-img img {
     max-width: 100%;
     height: auto;
@@ -384,7 +386,7 @@ body {
 }
 
 .careers-content {
-    margin-top: 150px;/
+    margin-top: 150px;
 }
 
 .careers-content h1 {
@@ -426,7 +428,7 @@ body {
 .careers-bg {
     background: url('../img/careers-bg.png');
     background-size: cover;
-    background-position: top:;
+    background-position: top;
     min-height: 544px;
     transform: skewY(-7deg);
 }
@@ -543,8 +545,6 @@ body {
     width: 100%;
 }
 
-.footer-item {}
-
 .footer-item img {
     max-width: 100%;
     height: auto;
@@ -565,7 +565,7 @@ body {
 .footer-item p a {
     display: inline-block;
     margin-right: 10px;
-    color: ##303842;
+    color: #303842;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -582,7 +582,7 @@ body {
 
 .footer-item a:hover {
     font-weight: 500;
-    color#000;
+    color:#000;
 }
 
 .footer-item h2 {
@@ -593,8 +593,6 @@ body {
     font-size: 14px;
     line-height: 58px;
 }
-
-.social-icons {}
 
 .social-icons a {
     display: inline-block;
